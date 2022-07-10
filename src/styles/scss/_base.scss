@@ -1,0 +1,57 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+html, body {
+  min-height: 100vh;
+  overflow-x: hidden;
+  background-color: #fff;
+
+  @include font-roboto-regular;
+  font-size: $font-size-base;
+  line-height: $line-height-base;
+}
+
+.vhidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.wrapper {
+  @include wrapper;
+  background-color: $color-bg-base;
+  color: $color-text-base;
+}
+
+.container {
+  @include container;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+  border: 0;
+  color: inherit;
+  font-family: inherit;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+li {
+  padding-left: 0;
+}

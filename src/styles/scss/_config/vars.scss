@@ -1,0 +1,23 @@
+$wrapper-max: 1440px !default;
+$wrapper-min: 280px !default;
+
+$container-max-widths: 1170px;
+$container-padding: 15px;
+
+$breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px,
+) !default;
+
+$font-family-base: 'Roboto';
+$font-size-base: 16px;
+$line-height-base: 1.75;
+$font-weight-base: 400;
+$font-style-base: normal;
+
+$color-bg-base: #fff;
+$color-text-base: #000;

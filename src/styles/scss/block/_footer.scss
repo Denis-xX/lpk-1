@@ -1,0 +1,20 @@
+.footer {
+  margin-top: auto;
+  // flex: 0 0 auto;
+}
+
+// .footer__inner {
+//   display: grid;
+//   grid-auto-flow: column;
+//   grid-auto-columns: 1fr;
+//   padding: 0 1rem;
+// }
+
+.social {
+  display: flex;
+
+  img {
+    width: 40px;
+    height: 40px;
+  }
+}

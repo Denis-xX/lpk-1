@@ -1,0 +1,16 @@
+.header__inner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__logo {
+  img {
+    border: 1px solid #000;
+    width: 100px;
+    height: 100px;
+  }
+}
+
+.menu__list {
+  display: flex;
+}

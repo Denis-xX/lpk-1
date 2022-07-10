@@ -1,0 +1,30 @@
+@import "../_mixins/font-face";
+
+@include font-face("Roboto", "@fonts/Roboto/Roboto-Light", 300);
+@include font-face("Roboto", "@fonts/Roboto/Roboto-Regular", 400);
+@include font-face("Roboto", "@fonts/Roboto/Roboto-Medium", 500);
+@include font-face("Roboto", "@fonts/Roboto/Roboto-Bold", 700);
+
+@mixin font-roboto-light{
+  font-family: 'Roboto';
+  font-weight: 300;
+  font-style: normal;
+}
+
+@mixin font-roboto-regular{
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-style: normal;
+}
+
+@mixin font-roboto-medium{
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-style: normal;
+}
+
+@mixin font-roboto-bold{
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-style: normal;
+}

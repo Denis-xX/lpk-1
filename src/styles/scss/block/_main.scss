@@ -1,0 +1,22 @@
+.hero {
+  display: flex;
+}
+
+.hero__column-left {
+  width: 50%;
+}
+
+.hero__column-right {
+  min-width: 0;
+  display: flex;
+
+  img {
+    border: 1px solid #000;
+    width: 250px;
+    height: 400px;
+  }
+}
+
+.hero__column-slider {
+  max-width: 600px;
+}

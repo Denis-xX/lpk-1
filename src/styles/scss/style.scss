@@ -1,0 +1,16 @@
+@import '~normalize.css/normalize';
+@import '~slick-carousel/slick/slick';
+@import '_config/vars';
+@import '_config/fonts';
+
+@import '_mixins/media';
+@import '_mixins/container';
+@import '_mixins/flex';
+@import '_mixins/font-face';
+
+@import 'carusel';
+@import 'base';
+
+@import 'block/header';
+@import 'block/main';
+@import 'block/footer';

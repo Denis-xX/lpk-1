@@ -1,0 +1,171 @@
+// -- Слайдер --
+
+// -- Блок слайдера --
+.hero-slider {
+  padding: 0;
+  margin: 0;
+  min-width: 0;
+  border: 1px solid #000;
+
+  &__item {
+    // max-height: 300px;
+    margin: 0 auto;
+  }
+}
+
+// .slick-dots {
+//   position: absolute;
+
+//   li {
+//     padding-top: 10px;
+//   }
+
+//   button {
+//     font-size: 0;
+//     padding: 0;
+//     border: none;
+//     background-color: #131313;
+//     width: 2px;
+//     height: 20px;
+//     border-radius: 7px;
+//     cursor: pointer;
+//     transition: all .3s;
+
+//     &:hover {
+//       background-color: #ff4040;
+//     }
+//   }
+// }
+
+// .news-slider .slick-dots {
+//   right: 0;
+//   // top: 52px;
+// }
+
+// .slick-active {
+//   button {
+//     background-color: #ff4040;
+//   }
+// }
+
+
+// -- Стрелки --
+.hero-slider .slick-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  border: 0;
+  padding: 0;
+  background-color: none;
+  cursor: pointer;
+  font-size: 0;
+
+  &::before {
+    display: table;
+    font-size: 40px;
+    line-height: 0;
+    color: #333;
+  }
+
+  &:hover, :focus {
+    opacity: 0.8;
+  }
+}
+
+.slick-prev {
+  left: 0;
+
+  &::before {
+    content: "\2770";
+  }
+}
+
+.slick-next {
+  right: 0;
+
+  &::before {
+    content: "\2771";
+  }
+}
+
+// -- Пагинация --
+// .slick-dots {
+//   list-style: none;
+//   padding: 0;
+//   margin: 0;
+//   position: absolute;
+//   bottom: 0;
+//   left: 50%;
+//   transform: translateX(-50%);
+
+//   li {
+//     display: inline-block;
+//     margin: 0 5px;
+//   }
+
+//   button {
+//     border: none;
+//     padding: 0;
+//     background-color: #aaa;
+//     cursor: pointer;
+
+//     border-radius: 50%;
+//     width: 12px;
+//     height: 12px;
+//     font-size: 0;
+
+//     &:hover, :focus {
+//       opacity: 0.8;
+//     }
+//   }
+// }
+
+// .slick-active {
+//   button {
+//     background-color: #ff4040;
+//   }
+// }
+
+// .slick-disabled {
+//   visibility: hidden;
+// }
+
+// /* Слайдер */
+// .slick-slider{}
+// /* Слайдер запущен */
+// .slick-slider.slick-initialized{}
+// /* Слайдер с точками */
+// .slick-slider.slick-dotted{}
+// /* Ограничивающая оболочка */
+.slick-list {
+  overflow: hidden;
+}
+// /* Лента слайдов */
+.slick-track{
+  display: flex;
+}
+// /* Слайд */
+// .slick-slide{}
+// /* Слайд активный (показывается) */
+// .slick-slide.slick-active{}
+// /* Слайд основной */
+// .slick-slide.slick-current{}
+// /* Слайд по центру */
+// .slick-slide.slick-center{}
+// /* Клонированный слайд */
+// .slick-slide.slick-cloned{}
+// /* Стрелка */
+// .slick-arrow{}
+// /* Стрелка влево */
+// .slick-arrow.slick-prev{}
+// /* Стрелка вправо */
+// .slick-arrow.slick-next{}
+// /* Стрелка не активная */
+// .slick-arrow.slick-disabled{}
+// /* Точки (булиты) */
+// .slick-dots{}
+// .slick-dots li{}
+// /* Активная точка */
+// .slick-dots li.slick-active{}
+// /* Элемент точки */
+// .slick-dots li button{}
